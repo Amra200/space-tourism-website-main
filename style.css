@@ -24,15 +24,15 @@ ul {
 }
 .home .header .icon {
   font-size: 49px;
-  margin: 57px 50px;
+  margin: 58px 50px;
 }
 .home .header .icon::after {
   content: "";
   position: absolute;
-  width: 480px;
+  width: 450px;
   height: 0.1mm;
   background-color: #ffffff;
-  top: 85px;
+  top: 87px;
   left: 150px;
   z-index: 1;
 }
@@ -55,7 +55,7 @@ ul {
   left: -100%;
   transition: 0.3s;
   backdrop-filter: blur(10px);
-  background: #ffffff12;
+  background: #ffffff08;
 }
 .home .menuList li {
   padding: 22px;
@@ -71,7 +71,7 @@ ul {
 .home .header ul li a {
   margin-right: 75px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 15px;
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -79,7 +79,7 @@ ul {
 .home .header ul li a span {
   font-weight: bold;
   word-spacing: 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .home-active::after {
   content: "";
@@ -96,7 +96,7 @@ ul {
   align-items: center;
 }
 .home .content .continer .title {
-  margin: 100px 0 30px 150px;
+  margin: 180px 0 30px 150px;
 
   font-size: 17px;
   line-height: 1.8;
@@ -121,6 +121,7 @@ ul {
   font-size: 17px;
   font-weight: normal;
   margin: 0 400px 0 55px;
+  width: 80%;
 }
 .home .content .circle {
   display: flex;
@@ -128,14 +129,14 @@ ul {
   align-items: center;
   background-color: white;
   color: black;
-  padding: 95px;
+  padding: 120px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  margin: 200px 200px 20px 235px;
+  margin: 300px 200px 20px 235px;
 }
 
 .page2 .home {
@@ -198,7 +199,7 @@ ul {
   left: 0;
   top: 25px;
   background-color: white;
-  width: 35px;
+  width: 33px;
   height: 3px;
   border-radius: 6px;
 }
@@ -472,6 +473,9 @@ ul {
   .destination .right p {
     margin: 0 44px 0 5px;
   }
+  .destination .right span {
+    margin-right: 30px;
+  }
   .destination .right .footer::before {
     margin-left: -90px;
   }
@@ -484,18 +488,16 @@ ul {
   }
   .home .content .continer .title p {
     font-size: 18px;
-    margin-left: 38px;
+    margin: 0 auto;
   }
   .home .content .continer .title h4 {
     font-size: 107px;
-    margin-left: 25px;
+    margin: 0 auto;
   }
-  .home .content .continer .title .three {
-    font-size: 22px;
-    width: 87%;
-    position: relative;
-    left: -91px;
+  .home .content .circle {
+    margin: 220px auto 50px;
   }
+
   .home .header .mobList {
     font-size: 42px;
     margin: 0 41px;
@@ -605,7 +607,7 @@ ul {
   }
 
   .home .content .continer .title .three {
-    margin: 0 128px 0 130px;
+    margin: 0 auto;
   }
   .continer .circle {
     margin: 80px -131px 0 0;
