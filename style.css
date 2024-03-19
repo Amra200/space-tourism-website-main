@@ -86,7 +86,7 @@ ul {
   position: absolute;
   border-bottom: 2px solid white;
   display: block;
-  width: 63px;
+  width: 65px;
   bottom: 0px;
 }
 .home .content {
@@ -148,7 +148,7 @@ ul {
   content: "";
   position: absolute;
   background-color: white;
-  width: 100px;
+  width: 110px;
   height: 2px;
   bottom: 0;
 }
@@ -276,7 +276,7 @@ ul {
   content: "";
   position: absolute;
   background-color: white;
-  width: 60px;
+  width: 63px;
   height: 2px;
   bottom: 0;
 }
@@ -345,7 +345,7 @@ ul {
   content: "";
   position: absolute;
   background-color: white;
-  width: 100px;
+  width: 110px;
   height: 2px;
   bottom: 0;
 }
@@ -491,16 +491,16 @@ ul {
     margin: 0 auto;
   }
   .home .content .continer .title h4 {
-    font-size: 107px;
+    font-size: 95px;
     margin: 0 auto;
   }
   .home .content .circle {
-    margin: 220px auto 50px;
+    margin: 220px 20px 50px -12px;
   }
 
   .home .header .mobList {
     font-size: 42px;
-    margin: 0 41px;
+    margin: 0 45px 7px;
   }
   .home {
     background-image: url(./starter-code/assets/home/background-home-mobile.jpg);
@@ -613,7 +613,7 @@ ul {
     margin: 80px -131px 0 0;
   }
   .home .content .continer .title {
-    margin: 50px 0 -100px;
+    margin: 50px 30px -100px 0;
   }
 
   .crew .content .text h4 {
@@ -621,11 +621,13 @@ ul {
     font-size: 27px;
   }
   .crew .content .text h2 {
-    margin: 50px;
-    font-size: 34px;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 100%;
   }
   .crew .content .text .title {
     margin: 50px auto;
+    width: 90%;
   }
   .crew .content .text .boluets {
     text-align: center;
@@ -681,15 +683,15 @@ ul {
     left: 85px;
   }
   .home .header .nav .destination-active::before {
-    width: 76px;
+    width: 90px;
     left: 171px;
   }
   .home .header .nav .crew-active::before {
     width: 45px;
-    left: 288px;
+    left: 305px;
   }
   .home .header .nav .technology-active::before {
-    width: 80px;
-    left: 370px;
+    width: 84px;
+    left: 394px;
   }
 }
